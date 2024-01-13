@@ -1,0 +1,58 @@
+body{
+    background-color: #ff9;
+}
+#box{    
+    position: relative;
+    float: right;
+    margin: 20px 50px 20px 50px;
+}
+header{
+    width: 100%;
+    line-height: 200%;
+    margin-bottom: 30px;
+    background: url(Obrazy/WiP.jpg) no-repeat right;
+}
+h1{
+    text-align: center;
+    font-family: Georgia;
+    padding: 10px;
+    opacity: 0,7;
+    text-shadow: 1px, 1px, 2px #000;
+}
+main{
+    background-color: white;
+    width: 1050px;
+    height: 500px;
+    padding: 1px, 20px, 20px, 20px;
+
+}
+footer{
+    border-top: 0.5px inset darkslategrey;
+    background-color: white;
+    font-family: Georgia;
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    padding: 5px;
+}
+
+#godz{
+    background-color: white;
+    position: relative;
+    width: 220px;
+    height: 420px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 90px;
+    float: left;
+    padding: 20px;
+}
+ul{
+    list-style-type: none;
+    padding-top: 10px;
+}
+ul li{
+    padding-top: 5px;
+    font-size: 100%;
+    text-align: justify;
+}
