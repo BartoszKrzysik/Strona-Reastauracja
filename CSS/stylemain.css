@@ -1,0 +1,158 @@
+/* STYLE STRONY */
+
+body{
+    background-color: #ff9;
+}
+#box{    
+    position: relative;
+    float: right;
+    margin: 20px 50px 20px 50px;
+}
+header{
+    width: 100%;
+    line-height: 200%;
+    margin-bottom: 30px;
+    background: url(../Obrazy/mediterranean-cuisine-2378758_1280.jpg) no-repeat right;
+}
+h1{
+    text-align: center;
+    font-family: Georgia;
+    padding: 10px;
+    opacity: 0,7;
+    text-shadow: 1px, 1px, 2px #000;
+    color: aliceblue;
+}
+header a{
+    text-decoration: none;
+}
+main{
+    background-color: white;
+    width: 1050px;
+    height: 500px;
+    padding: 1px, 20px, 20px, 20px;
+
+}
+footer{
+    border-top: 0.5px inset darkslategrey;
+    background-color: white;
+    font-family: Georgia;
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    padding: 5px;
+}
+
+#godz{
+    background-color: white;
+    position: relative;
+    width: 220px;
+    height: 590px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 90px;
+    float: left;
+    padding: 20px;
+}
+#godz a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    padding-top: 10px;
+}
+ul li{
+    padding-top: 5px;
+    font-size: 100%;
+    text-align: justify;
+}
+
+/* STYLE MENU */
+nav
+{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 26px;
+}
+
+nav ul
+{
+    list-style-type: none;
+    background-color: bisque;
+    margin: 0;
+    padding: 0 10px 0 0;
+    position: relative;
+    height: 50px;
+    display: inline-block;
+    
+}
+
+.menu li
+{
+    display: inline-block;
+    background-color: bisque;
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;
+    height: 100%;
+}
+
+
+
+nav a
+{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+    line-height: 46px;
+    padding: 0 10px 0 10px;
+    margin: 0;
+    transition: background-color 0.15s;
+}
+
+nav .menu
+{
+    list-style-type: none;
+}
+
+.podlista
+{
+    position: absolute;
+    top: 100%;
+    background-color: bisque;
+    width: 130px;
+    display: none;
+    padding: 0;
+}
+
+.podlista li 
+{
+  width: 100%;
+  height: 100%;
+  width: 100%;  
+}
+
+
+.podlista a
+{
+    width: 100%;
+    padding: 0;
+}
+
+.menu a:hover
+{
+    background-color: rgb(200, 127, 39);
+    color: #fff;
+}
+
+.menu li:hover .podlista
+{
+    display: block;
+}
+
+
+
