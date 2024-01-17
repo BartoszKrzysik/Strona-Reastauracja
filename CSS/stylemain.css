@@ -172,6 +172,8 @@ footer{
     font-size: 75%;
     font-style: italic;
     text-align: center;
+
+    /*ten komentarz tylko dla nauki gita xdd*/
     padding: 5px;
 }
 
