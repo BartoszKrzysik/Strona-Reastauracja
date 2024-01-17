@@ -1,17 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <title>Restauracja</title>
-    <link rel="stylesheet" href="../CSS/stylemain.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/stylemain.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/stylemenu.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,800;1,600;1,800&display=swap" rel="stylesheet">
+    
 </head>
+
 <body> 
-    <div id="box">
+    
         <header>
             <a href="index.html">
                 <h1>NAZWA</h1>
             </a>
         </header>
+
         <nav>
             <ul class="menu">
                 <li><a href="index.html">Strona Główna</a></li>
@@ -26,35 +34,76 @@
                 <li><a href="kontakt.html">Kontakt</a></li>
             </ul>   
         </nav>
-        <main>
 
-        </main>
-        <footer>
-            Cokolwiek byle by dzialalo
-        </footer>
-    </div>
-    <div id="godz">
-        <a href="menu.html">
-            <div id="photo1">
-                <img src="../Obrazy/schnipo-1837703_1280.jpg" width="220" height="220">
+        <div id="box">
+            <div id="godz">
+                <!--<a href="menu.html">
+                    <div id="photo1">
+                        <img src="../Obrazy/schnipo-1837703_1280.jpg" width="220" height="220">
+                    </div> -->
+                    <!-- to zakomentowalem, bo jakos mi nie pasuje w tym miejscu, proponuje zrobic osobnego diva-->
+                </a>
+                <a href="lokalizacja.html">
+                    
+                    <h3>Kiedy jesteśmy otwarci?</h3>
+                    <ul>
+                        <li>Poniedzialek 10:00-22:00</li>
+                        <li>Wtorek 10:00-22:00</li>
+                        <li>Środa 10:00-22:00</li>
+                        <li>Czwartek 10:00-22:00</li>
+                        <li>Piątek 10:00-22:00</li>
+                        <li>Sobota 10:00-22:00</li>
+                        <li>Niedziela 10:00-22:00</li>
+                    </ul>
+                </a>
+                
+                <!--<div id="photo1">
+                    <a href="lokalizacja.html">
+                        <img src="../Obrazy/minimap.jpg" width="220" height="160">
+                    </a>
+                </div> -->
             </div>
-        </a>
-        <a href="lokalizacja.html">
-            <ul>
-                <li>Poniedzialek 10:00-22:00</li>
-                <li>Wtorek 10:00-22:00</li>
-                <li>Środa 10:00-22:00</li>
-                <li>Czwartek 10:00-22:00</li>
-                <li>Piątek 10:00-22:00</li>
-                <li>Sobota 10:00-22:00</li>
-                <li>Niedziela 10:00-22:00</li>
-            </ul>
-        </a>
-        <div id="photo1">
-            <a href="lokalizacja.html">
-                <img src="../Obrazy/minimap.jpg" width="220" height="160">
-            </a>
+
+        
+            <main>
+
+                <h1>Witamy!</h1>
+
+                <div class="content">
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat accusamus aliquid eum earum aliquam, repellat, beatae ipsam officia quae atque illo quod fugiat quos amet blanditiis quo. Magni, voluptates vero!</p>
+
+                    <img class="photomain" src="../Obrazy/WiP.jpg">
+                </div>
+                <div class="content">
+
+
+                    <img class="photomain" src="../Obrazy/WiP.jpg">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat accusamus aliquid eum earum aliquam, repellat, beatae ipsam officia quae atque illo quod fugiat quos amet blanditiis quo. Magni, voluptates vero!</p>
+
+                    
+                </div>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat accusamus aliquid eum earum aliquam, repellat, beatae ipsam officia quae atque illo quod fugiat quos amet blanditiis quo. Magni, voluptates vero!</p>
+
+                    <img class="photomain" src="../Obrazy/WiP.jpg">
+                </div>
+
+            </main> 
+        
+            <div id="lucky">
+                <h3>Szczęśliwy numerek na dziś:</h3>
+                <div id="number">
+                    <p id="l_content">4</p>
+                    
+                </div>
+                <p id="info">Szczęśliwy numerek jest losowany codziennie. Danie o danym numerze w naszym menu jest danego dnia sprzedawane w promocyjnej cenie - 30% przeceny!</p>
+            </div>
         </div>
-    </div>
+        
+
+    <footer>
+        Cokolwiek byle by dzialalo
+    </footer>
 </body>
 </html>
