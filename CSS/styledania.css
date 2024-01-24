@@ -1,0 +1,86 @@
+.dania {
+    padding: 20px 20px;
+    
+    display: flex;
+    justify-content: center;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    
+}
+.dania p {
+    margin-left: auto;
+    margin-right: auto;
+}
+.danie_obraz {
+    display: inline-block;
+    width: 300px;
+    margin-left: 40px;
+    margin-right: 40px;
+    position: relative;
+}
+.cena {
+    font-size: 40px;
+    color: red;
+    font-weight: bold;
+
+  }
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 95%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    z-index: 1;
+}
+.overlay p{
+    font-size: smaller;
+}
+
+.dania:hover .overlay {
+    display: flex;
+}
+.danie_obraz:nth-child(odd) {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.danie_obraz:nth-child(even) {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.dania:nth-child(odd):hover .overlay {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.dania:nth-child(even):hover .overlay {
+    margin-right: 0;
+    margin-left: auto;
+}
+.danie_info {
+    display: inline-block;
+    width: 300px;
+    height: auto;
+    margin: 0 40px;
+    position: relative;
+}
+
+.danie_info p{
+    display: block;
+    font-size: 30px;
+    margin: 5px;
+}
+.danie_info .cena {
+    display: block;
+    margin: 5px;
+}
