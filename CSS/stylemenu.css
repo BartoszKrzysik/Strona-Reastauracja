@@ -85,6 +85,7 @@ nav .menu
     color: #fff;
 }
 
+
 .menu li:hover .podlista
 {
     display: block;
@@ -146,11 +147,11 @@ nav .menu
         
     }
 
-    .menu li:hover .podlista
+    /*.menu li:hover .podlista
     {
         display: block;
        
-    }
+    }*/
 
     .podlista li 
     {
@@ -160,7 +161,7 @@ nav .menu
 
     .podlista a
     {
-        display: block;
+        /*display: block;*/
         width: 100%;
         height: auto;
         background-color:rgb(246, 236, 224);
