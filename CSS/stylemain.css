@@ -5,6 +5,16 @@ body{
     font-family: "Poppins", sans-serif;
 }
 
+.line 
+{
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 360px;
+    height: 2px;
+    background-color:rgb(172, 165, 165);
+}
+
 #box
 {
     display: flex;
@@ -64,7 +74,7 @@ header a{
     
 }
 
-ul li{
+ul li {
     padding-top: 5px;
     font-size: 100%;
     
@@ -179,44 +189,74 @@ footer{
 
 
 
+/*==================================*/
+/* ZAPYTANIA MEDIALNE */
+/*==================================*/
+
+@media (max-width: 1400px) /*boczne paski i main*/
+{
+
+    #box
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    main 
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        margin-bottom: 36px;
+    }
+
+    main .content p, main .content .photomain
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 550px;
+        width: 550px;
+    }
+
+    
+    main .content
+    {
+      display: block;  
+    }
 
 
+    main .content p, main .content .photomain
+    {
+        display: block;
+    }
 
-/*FONTS*/
-/*
-.poppins-regular {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .poppins-medium {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .poppins-semibold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-  }
-  
-  .poppins-semibold-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: italic;
-  }
-  
-  .poppins-extrabold-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-style: italic;
-  }
-  
-  .poppins-extrabold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-  }
-*/
+    #godz
+    {
+        position: static;
+        display: block;
+        width: 92%;
+        margin-bottom: 36px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #lucky
+    {
+        display: block;
+        position: static;
+        width: 92%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .line
+    {
+        display: block;
+    }
+
+}
