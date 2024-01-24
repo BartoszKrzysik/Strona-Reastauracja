@@ -29,6 +29,7 @@ nav ul
     padding: 0;
     margin-right: 10px;
     height: 100%;
+    
 }
 
 
@@ -87,4 +88,81 @@ nav .menu
 .menu li:hover .podlista
 {
     display: block;
+}
+
+
+/*==================================*/
+/* ZAPYTANIE MEDIALNE */
+/*==================================*/
+
+@media (max-width: 859px) /*zmiana menu poziomego na pionowe*/
+{
+    nav
+    {
+        display: block;
+        position: static;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    nav .menu
+    {
+        display: block;
+        position: static;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }
+
+    nav ul 
+    {
+        display: block;
+        position: static;
+        height: auto;
+        width: 400px;
+        padding: 0;
+    }
+
+    nav a 
+    {
+        display: block;
+        position: static;
+        padding: 0;
+    }
+
+    .menu li {
+        display: block;
+        position: static;
+        margin: 0;
+    }
+
+    .podlista 
+    {
+        width: 100%;
+        height: auto;
+        position: static;
+        display: none;
+        box-shadow: none;
+        
+    }
+
+    .menu li:hover .podlista
+    {
+        display: block;
+       
+    }
+
+    .podlista li 
+    {
+        width: 100%;
+        padding: 0;
+    }
+
+    .podlista a
+    {
+        display: block;
+        width: 100%;
+        height: auto;
+        background-color:rgb(246, 236, 224);
+    }
 }
