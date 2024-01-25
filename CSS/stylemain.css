@@ -93,6 +93,7 @@ main
     border-radius: 10px;
     border: 1px solid rgb(196, 171, 79);
     box-shadow: 1px 1px 7px rgb(93, 91, 91);
+    padding: 20px 30px;
 }
 #mapa{
     margin: 20px;
@@ -191,8 +192,21 @@ footer{
 
     /*ten komentarz tylko dla nauki gita xdd*/
     padding: 5px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+.students
+{
+    display: block;
+}
+
+.we
+{
+    margin-left: 80px;;
+    margin-right: auto;
+}
 
 
 /*==================================*/
@@ -264,5 +278,7 @@ footer{
     {
         display: block;
     }
+
+
 
 }

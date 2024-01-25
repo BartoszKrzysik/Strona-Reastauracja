@@ -128,7 +128,7 @@ $(document).ready(function(){
         document.getElementById("price").innerText = x;
         count6--;
 
-        if(count6 > 0) $("#m1").css("visibility","visible");
+        if(count6 > 0) $("#m6").css("visibility","visible");
         else $("#m6").css("visibility","hidden"); 
     });
 

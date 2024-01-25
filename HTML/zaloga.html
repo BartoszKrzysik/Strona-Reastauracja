@@ -2,13 +2,15 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>Tablica alergenów</title>
+    <title>To my!</title>
     <link rel="stylesheet" type="text/css" href="../CSS/stylemain.css">
     <link rel="stylesheet" type="text/css" href="../CSS/stylemenu.css">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,800;1,600;1,800&display=swap" rel="stylesheet">
+
+    <script src="../JS/jquery-3.7.1.js"></script>
 </head>
 <body> 
     <header>
@@ -44,13 +46,13 @@
                 
                 <h3>Kiedy jesteśmy otwarci?</h3>
                 <ul>
-                    <li>Poniedzialek 10:00-22:00</li>
-                    <li>Wtorek 10:00-22:00</li>
-                    <li>Środa 10:00-22:00</li>
-                    <li>Czwartek 10:00-22:00</li>
-                    <li>Piątek 10:00-22:00</li>
-                    <li>Sobota 10:00-22:00</li>
-                    <li>Niedziela 10:00-22:00</li>
+                    <li>Poniedzialek 10:00-20:00</li>
+                    <li>Wtorek 10:00-20:00</li>
+                    <li>Środa 10:00-20:00</li>
+                    <li>Czwartek 10:00-20:00</li>
+                    <li>Piątek 10:00-20:00</li>
+                    <li>Sobota 10:00-17:00</li>
+                    <li>Niedziela 10:00-17:00</li>
                 </ul>
             </a>
             
@@ -65,16 +67,26 @@
         <main>
             <p>W Restauracji nad Olbrzymim Schabowym tworzymy zgraną ekipę pasjonatów kulinarnych sztuk, gotujących z sercem i dbających o każdy detal, aby zapewnić Wam niezapomniane doznania smakowe.</p>
             <br>
-            <p>Jan Kowalski pasjonat, przez wiele lat pracował na zmywaku, mając jedno marzenie - zostać szefem kuchni. W tym celu wyjechał za granicę, by poznawać kuchnie włoską, niemiecką, szwajcarską i hiszpańską. Swoją pasję przyniósł w ten skromny zakątek, za co wdzięczni są mu chyba wszyscy studenci</p>
+            
+            <p><b>Józef</b> jest szefem kuchni. To zdecydowany pasjonat, który swoją werwą i energią zaraża innych! Swoją pasję rozwijał podróżując po świecie i poznając najróżniejsze kuchnie. Jednak stwierdza jednoznacznie: "Najlepiej to u nas!". Chyba każdy głodny student jest mu wdzięczny, że tak wielką pasję rozwija blisko uczelni?</p>
+            <img class="we" src="../Obrazy/joz.png">
+
             <br>
-            <p>Marta Nowak jest zastępczynią szefa kuchni i współpracuje z Janem Kowalskim od 2021 roku. Marta jest utalentowaną i kreatywną kucharką, która lubi odkrywać nowe smaki i składniki. Marta jest specjalistką w przygotowywaniu różnorodnych potraw, które zachwycają naszych gości swoją oryginalnością i świeżością.</p>
+            <p><b>Marta</b> jest zastępczynią szefa kuchni. W naszej ekipie od niedawna. Marta jest utalentowaną i kreatywną kucharką, która lubi odkrywać nowe smaki i składniki, ale kocha również te tradycyjne!. Czy ktoś kiedyś nie zachwycił się jedząc jej fenomenalne pierogi?</p>
+            <img class="we" src="../Obrazy/marta.png">
+
+
             <br>
-            <p>Paweł Wiśniewski jest kucharzem w naszej restauracji od 2022 roku. Paweł jest miłośnikiem kuchni europejskiej i ma świetne umiejętności w przygotowywaniu makaronów, pizzy, sałatek i deserów. Paweł jest odpowiedzialny za dostarczanie pysznych i estetycznych dań dla naszych gości. Paweł jest również bardzo dbały o higienę i porządek w kuchni.</p>
+            <p><b>Paweł</b> to człowiek młody i pełen pozytywnej energii, która udziela się wszystkim w kuchni i poza nią!. Chyba nie ma drugiej osoby, która aż tak cieszy się, gdy robi coś dla drugiego - gotowanie jest dla niego nie tylko pracą, ale też przyjemnością! Paweł jest również bardzo dbały o higienę i porządek w kuchni. Czy ten człowiek czegoś nie umie?</p>
+            <img class="we" src="../Obrazy/raf.png">
+
+            <br>
+            <p>Autorem tych przecudnych portretów jest 3-letnia Helcia! Nic piękniejszego nigdy nie widzieliśmy!</p>
 
         </main> 
     
         <div id="lucky">
-            <h3>Szczęśliwy numerek na dziś:</h3>
+            <h3>Szczęśliwy numerek na </h3>
             <div id="number">
                 <p id="l_content">4</p>
                 
@@ -83,9 +95,10 @@
         </div>
     </div>
     
+    <script src="../JS/CurrDate.js"></script>
 
         <footer>
-            <a href="kontakt.html">Kontakt</a>
+            Copyright &copy; Adam&Bartosz 2024
         </footer>
     </body>
 </html>
