@@ -94,7 +94,11 @@ main
     border: 1px solid rgb(196, 171, 79);
     box-shadow: 1px 1px 7px rgb(93, 91, 91);
 }
-
+#mapa{
+    margin: 20px;
+    width: auto;
+    height: auto;
+}
 main .photomain 
 {
     display: inline-block;
@@ -102,7 +106,9 @@ main .photomain
     margin-left: 40px;
     margin-right: 40px;
 }
-
+main h3{
+    text-align: center;
+}
 main .content
 {
     padding: 20px 20px;
@@ -129,7 +135,6 @@ main h1
 main p
 {
     display: inline-block;
-    max-width: 300px;
     color: rgb(27, 26, 26);
     margin-left: 10px;
     margin-right: 10px;
