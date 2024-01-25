@@ -85,7 +85,7 @@ main
 {
     background-color: white;
     width: 800px;
-    height: 1188.1px;
+    height: auto;
     font-family: "Poppins", sans-serif;
     display: inline-block;
     margin-left: auto;
