@@ -85,6 +85,7 @@ main
 {
     background-color: white;
     width: 800px;
+    height: 1188.1px;
     font-family: "Poppins", sans-serif;
     display: inline-block;
     margin-left: auto;
@@ -125,9 +126,10 @@ main h1
     font-weight: bold;
     font-size: 36px;
     font-style: italic;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     position: relative;
     top: 30px;
+    
 }
 
 main p
@@ -155,7 +157,6 @@ main p
     border: 1px solid rgb(196, 171, 79);
     box-shadow: 1px 1px 7px rgb(93, 91, 91);
     position: fixed;
-    
 }
 
 #number

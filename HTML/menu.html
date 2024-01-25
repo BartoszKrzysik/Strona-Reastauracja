@@ -5,11 +5,19 @@
     <title>Tablica alergenów</title>
     <link rel="stylesheet" type="text/css" href="../CSS/stylemain.css">
     <link rel="stylesheet" type="text/css" href="../CSS/stylemenu.css">
+
+    <link rel="stylesheet" type="text/css" href="../CSS/order.css">
     <link rel="stylesheet" type="text/css" href="../CSS/styledania.css">
+
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,800;1,600;1,800&display=swap" rel="stylesheet">
+
+    <script src="../JS/jquery-3.7.1.js"></script>
+
+    <script src="../JS/price.js"></script>
+
 </head>
 <body> 
     <header>
@@ -64,6 +72,93 @@
 
     
         <main>
+
+
+            <div id="accept">
+                <p>Dziękujemy za złożenie zamówienia!
+                    Będzie ono do odebrania u nas w lokalu za około pół godziny!
+                    PS. Płatność przy odbiorze z uwzględnieniem dzisiejszej promocji!
+                    Miłego dnia!
+                </p>
+                <button id="git">Cieszy mnie to!</button>
+            </div>
+
+            <p class="oinfo">A może chcesz zamówić i odebrać na miejscu? :)</p>
+            <button id="show">Rozwiń formularz</button>
+            <div id="order">
+
+                <div class="danie">
+                    <button id="m1" class="min">-</button>
+                    <button id="d1">+</button>
+                    <p>1. Nazwa dania</p>
+                    <p id="c1">10</p>
+                    <p class="waluta">zł</p>
+                </div>
+
+                <div class="danie">
+                    <button id="m2" class="min">-</button>
+                    <button id="d2">+</button>
+                    <p>2. Nazwa dania</p>
+                    <p id="c2">10</p>
+                    <p class="waluta">zł</p>
+                </div>
+
+                <div class="danie">
+                    <button id="m3" class="min">-</button>
+                    <button id="d3">+</button>
+                    <p>3. Nazwa dania</p>
+                    <p id="c3">10</p>
+                    <p class="waluta">zł</p>
+                </div>
+
+                <div class="danie">
+                    <button id="m4" class="min">-</button>
+                    <button id="d4">+</button>
+                    <p>4. Nazwa dania</p>
+                    <p id="c4">10</p>
+                    <p class="waluta">zł</p>
+                </div>
+
+                <div class="danie">
+                    <button id="m5" class="min">-</button>
+                    <button id="d5">+</button>
+                    <p>5. Nazwa dania</p>
+                    <p id="c5">10</p>
+                    <p class="waluta">zł</p>
+                </div>
+
+                <div class="danie">
+                    <button id="m6" class="min">-</button>
+                    <button id="d6">+</button>
+                    <p>6. Nazwa dania</p>
+                    <p id="c6">10</p>
+                    <p class="waluta">zł</p>
+                </div>
+
+                <div class="danie">
+                    <button id="m7" class="min">-</button>
+                    <button id="d7">+</button>
+                    <p>7. Nazwa dania</p>
+                    <p id="c7">10</p>
+                    <p class="waluta">zł</p>
+                </div>
+
+                <div class="danie">
+                    <button id="m8" class="min">-</button>
+                    <button id="d8">+</button>
+                    <p>8. Nazwa dania</p>
+                    <p id="c8">10</p>
+                    <p class="waluta">zł</p>
+                </div>
+                
+                <div id="all">
+                    <p><b>Do zapłaty:</b></p>
+                    <p id="price">0</p>
+                    <p class="waluta"><b>zł</b></p>
+                </div>
+
+                <button id="send">Zamów</button>
+
             <div class="dania">
                 <div class="danie_info">
                     <p>Zupa pomidorowa</p>
@@ -188,8 +283,34 @@
             <p id="info">Szczęśliwy numerek jest losowany codziennie. Danie o danym numerze w naszym menu jest danego dnia sprzedawane w promocyjnej cenie - 30% przeceny!</p>
         </div>
     </div>
-    
 
+    <script>
+
+        const sh = document.getElementById("show");
+
+        sh.addEventListener("click", function(){
+            if( sh.innerHTML == "Rozwiń formularz") sh.innerHTML = "Zwiń formularz";
+            else sh.innerHTML = "Rozwiń formularz";
+        });
+
+        
+        //zatwierdzenie transakcji
+        $("#send").click(function(){
+            if( document.getElementById("price").innerHTML != '0')
+            {
+                $("#accept").css("visibility","visible");
+                document.getElementById("price").innerHTML  = '0';
+                $(".min").css("visibility","hidden");
+                $("#git").click(function(){
+                    $("#accept").css("visibility","hidden");
+                    
+                });
+            }
+        });
+
+    </script>
+    
+    
         <footer>
             <a href="kontakt.html">Kontakt</a>
         </footer>
